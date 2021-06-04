@@ -1,0 +1,25 @@
+{
+    "data_dir": "frames/data/usr_data_nobook",
+    "output_dir": "frames/output/usr_context_nobook",
+    "zipped_model_path": "frames/output/usr_context_nobook/bert_frames_usr_context.zip",
+    "log_dir": "frames/log/usr_context_nobook",
+    "DEVICE": "cuda:0",
+    "seed": 2019,
+    "cut_sen_len": 40,
+    "use_bert_tokenizer": true,
+    "model": {
+      "finetune": true,
+      "context": true,
+      "context_grad": false,
+      "pretrained_weights": "bert-base-uncased",
+      "check_step": 1000,
+      "max_step": 40000,
+      "batch_size": 12,
+      "learning_rate": 1e-5,
+      "adam_epsilon": 1e-8,
+      "warmup_steps": 0,
+      "weight_decay": 0.0,
+      "dropout": 0.1,
+      "hidden_units": 1536
+    }
+  }
