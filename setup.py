@@ -39,7 +39,6 @@ setup(
         'scikit-learn==0.20.3',
         'pytorch-pretrained-bert>=0.6.1',
         'transformers>=2.3.0,<3.0.0',
-        'tensorflow==1.14',
         'tensorboard>=1.14.0',
         'tensorboardX==1.7',
         'tokenizers>=0.8.0',
