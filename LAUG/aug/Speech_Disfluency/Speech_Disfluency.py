@@ -81,8 +81,8 @@ class Speech_Disfluency:
                 candidate=[]
                 if max_entity in self.resources["knowledge_base"]["entity"]:
                     candidate=self.resources["knowledge_base"]["category"][random_pick_from_list(self.resources["knowledge_base"]["entity"][max_entity])][0:]
-                if span in candidate:
-                    candidate.remove(span)
+                if value in candidate:
+                    candidate.remove(value)
                 if len(candidate)!=0:
                     word_list[start]=random_pick_from_list(candidate)+' '+random_pick_from_list(self.resources["edit_terms"])+' '+word_list[start]
         return word_list
