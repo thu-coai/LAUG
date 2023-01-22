@@ -104,6 +104,11 @@ We provide four base NLU models which are described in our paper:
 
 These models are adapted from [ConvLab-2](https://github.com/thu-coai/ConvLab-2). For more details, You can refer to `README.md` under `LUAG/nlu/$model/$dataset` dir such as `LAUG/nlu/gpt/multiwoz/README.md`.
 
+## Related Work that uses LAUG
+
+* [Know Thy Strengths: Comprehensive Dialogue State Tracking Diagnostics (EMNLP2022 Findings)](https://arxiv.org/abs/2112.08321): Provides a comprehensive dialogue state tracking diagnostics toolkit _CheckDST_ that facilitates robustness testing and failure mode analytics.  
+
+
 ## Citing
 
 If you use LAUG in your research, please cite:
